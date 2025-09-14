@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deal of the Day - BestBuy Clone</title>
+  <link rel="stylesheet" href="/css/style.css"/>
+  <link rel="stylesheet" href="/css/deals.css"/>
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+
+
+  <div id="navbar-container"></div>
+  <script>
+    fetch("/html/navbar.html")
+      .then(res => res.text())
+      .then(data => { document.getElementById("navbar-container").innerHTML = data; });
+  </script>
+
+
+
+<h1 class="deals-heading">Deal of the Day</h1>
+  <!-- Cards Container -->
+  <div id="deals-container" class="deals-cards-container"><!-- Cards go here --></div>
+
+
+
+  
+  <section class="drops-section">
+  <div class="drops-container">
+    <!-- Left side content -->
+    <div class="drops-info">
+      <div class="drops-badge">
+        <i class="fas fa-mobile-alt"></i>
+        <span class="badge-text">App exclusive</span>
+      </div>
+      <div class="drops-logo">
+        <span class="drops-title">DROPS</span>
+      </div>
+      <div class="drops-description">
+        <p>Snag limited product releases and additional savings – only in the app.</p>
+      </div>
+      <button class="drops-app-btn">Get the app</button>
+    </div>
+
+    <!-- Product cards -->
+    <div class="drops-products">
+      <div class="drops-card">
+        <div class="drops-date">
+          <i class="far fa-clock"></i>
+          <span>Drops today</span>
+        </div>
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6418/6418599_sd.jpg" alt="eufy X10 Pro">
+        <h4>eufy - X10 Pro Omni Wi-Fi Connected Robot...</h4>
+      </div>
+
+      <div class="drops-card">
+        <div class="drops-date">
+          <i class="far fa-clock"></i>
+          <span>Drops 09/15</span>
+        </div>
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6507/6507982_sd.jpg" alt="TempSpike">
+        <h4>ThermoPro - TempSpike Bluetooth Smart...</h4>
+      </div>
+
+      <div class="drops-card">
+        <div class="drops-date">
+          <i class="far fa-clock"></i>
+          <span>Drops 09/16</span>
+        </div>
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6418/6418710_sd.jpg" alt="Google Nest">
+        <h4>Google - Nest Audio - Smart Speaker...</h4>
+      </div>
+
+      <div class="drops-card">
+        <div class="drops-date">
+          <i class="far fa-clock"></i>
+          <span>Drops 09/17</span>
+        </div>
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6480/6480203_sd.jpg" alt="Twinkly Lights">
+        <h4>Twinkly - Christmas Curtain Lights 210...</h4>
+      </div>
+
+      <div class="drops-card">
+        <div class="drops-date">
+          <i class="far fa-clock"></i>
+          <span>Drops 09/18</span>
+        </div>
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542990_sd.jpg" alt="LOTR Ring">
+        <h4>DROP - The Lord of the Rings Elven Rings of...</h4>
+      </div>
+
+      <div class="drops-card">
+        <div class="drops-date">
+          <i class="far fa-clock"></i>
+          <span>Drops 09/19</span>
+        </div>
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542991_sd.jpg" alt="LOTR Ring Blue">
+        <h4>DROP - The Lord of the Rings Elven Rings of...</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer (optional) -->
+  <div id="footer"></div>
+  <script src="/js/footer.js"></script>
+  <script src="/js/deals.js"></script>
+</body>
+</html>

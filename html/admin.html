@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="/css/admin.css">
+  <script src="https://kit.fontawesome.com/a6852988cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Admin Dashboard</h1>
+    <button id="logoutBtn" class="logout">Logout</button>
+  </header>
+  <main>
+    <section class="form-section">
+      <h2>Add New Item</h2>
+      <input type="text" id="itemName" placeholder="Item Name">
+      <input type="number" id="itemPrice" placeholder="Item Price">
+      <button id="addBtn">Add Item</button>
+    </section>
+
+    <section class="table-section">
+      <h2>Manage Items</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Item Name</th>
+            <th>Price</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="itemTable"></tbody>
+      </table>
+    </section>
+  </main>
+
+
+  <div id="editModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeEditModal">&times;</span>
+      <h2>Edit Item</h2>
+      <input type="text" id="editItemName" placeholder="Edit Name">
+      <input type="number" id="editItemPrice" placeholder="Edit Price">
+      <button id="saveEditBtn">Save Changes</button>
+    </div>
+  </div>
+  <script src="/js/admin.js"></script>
+</body>
+</html>

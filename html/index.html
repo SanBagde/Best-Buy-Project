@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/deals.css"/>
+
+    <script src="https://kit.fontawesome.com/a6852988cc.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div id="navbar-container"></div>
+
+<script>
+
+  fetch("/html/navbar.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("navbar-container").innerHTML = data;
+    });
+</script>
+
+
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>User Login</h2>
+            <input type="text" placeholder="Enter Username">
+            <input type="password" placeholder="Enter Password">
+            <button class="btn-user">Sign In</button>
+            <hr>
+            <button class="btn-admin" id="adminLoginBtn">Sign in as Admin</button>
+        </div>
+    </div>
+
+
+          <div id="adminModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeAdminModal">&times;</span>
+            <h2>Admin Login</h2>
+            <input type="password" id="adminPassword" placeholder="Enter Admin Password">
+            <button class="btn-admin" id="adminSubmitBtn">Login as Admin</button>
+        </div>
+    </div>
+
+
+    <div id="container">
+        
+    <div id="container1">
+    <img class="Cimg" src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/1684811_panel_tradein-LV5-4e26a1dc-e36b-4a53-bbfc-73b3d0ca3cf5.jpg;maxHeight=1456;maxWidth=1456?format=webp" alt="">
+    </div>
+
+    <div id="container2">
+        <div class="right">
+            <div class="recommended">
+                <h3>Recommended for you</h3>
+                <div class="products">
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5920/5920901_rd.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="">
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501022_sd.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="">
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501017_sd.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="">
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/93d63192-c71c-4a26-8e0c-da261bf863c7.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="">
+                </div>
+            </div>
+
+             <div class="deals">
+                <div class="outlet">
+                    <span class="badge blue">Outlet Deals</span>
+                    <h1> <span style="color: #b5061f;">Clearance</span> , 
+                        open-box
+                        and more  <span style="color: #b5061f;">.</span></h1>
+    <a class="product-deals" href="">View outlet deals</a>
+
+                </div>
+
+                <div class="topdeal">
+                    <span class="badge red">Top Deals</span>
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501017_sd.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="">
+                    <p class="price">$139.00</p>
+                    <a class="product-name" href="">Beats - Studio³ Wireless</a>
+                </div>
+            </div>
+       
+    </div>
+</div>
+</div>
+
+
+<h3 >You viewed</h3>
+
+<a class="product-name" href="">Manage all your recently viewed items</a>
+
+<div id="cards">
+    <div id="cart">
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/93d63192-c71c-4a26-8e0c-da261bf863c7.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="">
+        <a class="apple" href="">Apple - MacBook Air 13-inch Laptop - Apple M2 chip Built for Apple </a>
+    </div>
+
+    <div id="cart">
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501017_sd.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="">
+        <a class="apple" href="">Beats - Studio Pro - Wireless Noise Cancelling Over-the-Ear Headpho</a>
+    </div>
+
+    <div id="cart">
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501022_sd.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="">
+        <a class="apple" href="">Beats - Solo 4 Wireless On-Ear Headphones - Cloud Pink</a>
+    </div>
+
+    <div id="cart">
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5920/5920901_rd.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="">
+        <a class="apple" href="">Beats - Studio³ Wireless Noise Cancelling Headphones - Matte Black </a>
+    </div>
+
+    <div id="cart">
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6558/6558857_sd.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="">
+        <a class="apple" href="">Beats - Solo 4 JENNIE Special Edition - Wireless On-Ear Headphones  </a>
+    </div>
+</div>
+
+
+
+<div class="deals-section">
+  <div class="deals-title">
+    Gift card and subscription deals
+  </div>
+  <div class="deals-row">
+    <!-- Card 1 -->
+    <div class="deal-card">
+      <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/ref2995950-nfl-primary-der-0033b17d-da50-4868-bf07-f34e41ae3618.jpg" alt="NFL Sunday Ticket" />
+      <div class="deal-text">
+        <strong>NFL Sunday Ticket from YouTube and YouTube TV</strong>
+        <p>Plus and Total members get NFL Sunday Ticket from YouTube and YouTube TV for $258. Save up to $222.</p>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="deal-card">
+      <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6457/6457165_sd.jpg" alt="Domino's Gift Card" />
+      <div class="deal-text">
+        <strong>Save 10% on select Domino’s gift cards</strong>
+        <p>Digital delivery or physical card with savings for your next pizza order!</p>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="deal-card">
+      <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/a7735877-7c4a-4e92-b685-c844d3c58e6f.jpg;maxHeight=1080;maxWidth=900?format=webp" alt="WB $5 Digital Movies" />
+      <div class="deal-text">
+        <strong>Exclusive $5 movie and TV show discount offer for My Best Buy members</strong>
+        <p>Account required. Redeem digital code by 12/31/2025. See My Best Buy for full details.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="footer"></div>
+
+<link rel="stylesheet" href="/css/footer.css">
+<script src="/js/footer.js"></script>
+
+
+</body>
+<script src="/js/script.js"></script>
+</html>

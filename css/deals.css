@@ -1,0 +1,293 @@
+.deals-heading {
+  text-align: center;
+  margin: 30px 0 25px 0;
+  color: #222;
+  font-size: 2.3rem;
+}
+
+/* Make images much bigger */
+.deal-card-img {
+  width: 150px !important;          /* FORCE larger width */
+  height: 100px !important;         /* FORCE larger height */
+  object-fit: contain;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  background: #f8f8fa;
+  margin-top: 8px;
+}
+
+/* Make cards bigger to fit larger images */
+.deal-card {
+  background: #fff;
+  border-radius: 13px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  max-width: 320px;      /* was 300px */
+  min-width: 200px;
+  width: 100%;           /* add this to auto-fit */
+  height: auto;          /* let it grow with content */
+  padding: 10px 8px;    /* less padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #e3e6ea;
+  position: relative;
+  justify-content: flex-start; /* don't force too much bottom gap */
+  word-break: break-word;      /* wrap super-long product names */
+  overflow: hidden;            /* stop content from leaking out */
+}
+
+.deals-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;        /* was 30px */
+ 
+  padding: 0 15px 40px 15px; /* less padding */
+}
+
+.deal-title,
+.deal-description {
+  width: 100%;
+  white-space: normal; /* allow multiple lines */
+  overflow-wrap: break-word; /* wrap long words */
+  text-overflow: ellipsis; /* multi-line cut */
+}
+
+.img{
+    height: 100px;
+  width: 100px;
+}
+
+.deal-save {
+  position: absolute;
+  left: 16px; top: 18px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: #fff;
+  background: #ffe036;
+  color: #c30;
+  font-weight: bold;
+  font-size: 1.08rem;
+}
+
+.deal-title {
+  line-height: 1;
+  color: #0046be;
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-size: 20px;
+  text-align: center;
+}
+.deal-price, .deal-old-price, .deal-rating, .deal-description, .drops-card h4 {
+  line-height: 1;       /* Make these more compact */
+}
+.deal-rating {
+  color: #f6c700;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.deal-rating span {
+  color: #666;
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.deal-price {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1px;
+  color: #222;
+}
+
+.deal-old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 13px;
+  margin-bottom: 1px;
+}
+
+.deal-actions {
+  margin-top: 5px; /* more space below content before buttons */
+  width: 100%;
+  display: flex;
+  gap: 4px;
+    padding-bottom: 0;
+
+}
+
+.deal-actions .add-cart {
+  flex: 1;
+  background: #ffd915;
+  color: #222;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.deal-actions .add-cart:hover {
+  background: #ffc107;
+}
+
+.deal-actions .save-btn {
+  background: #fff;
+  border: 1px solid #ffc107;
+  border-radius: 5px;
+  color: #ffc107;
+  font-size: 18px;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+
+/* DROPS Section Styles */
+.drops-section {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  color: white;
+  padding: 40px 20px;
+  margin: 50px 0 0 0;
+}
+
+.drops-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Left side info */
+.drops-info {
+  flex: 0 0 300px;
+  padding-right: 20px;
+}
+
+.drops-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.drops-badge i {
+  background: #ffcc00;
+  color: #000;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.badge-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.drops-logo {
+  margin-bottom: 20px;
+}
+
+.drops-title {
+  background: #ffcc00;
+  color: #000;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.drops-description {
+  margin-bottom: 25px;
+}
+
+.drops-description p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #e0e0e0;
+}
+
+.drops-app-btn {
+  background: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.drops-app-btn:hover {
+  background: #e6b800;
+}
+
+
+/* Product cards section */
+.drops-products {
+  flex: 1;
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.drops-card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  min-width: 180px;
+  flex: 0 0 180px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.drops-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: #f0f0f0;
+  color: #666;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.drops-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin: 0 auto 12px auto;
+  display: block;
+}
+
+.drops-card h4 {
+  color: #333;
+  font-size: 12px;
+  line-height: 1.3;
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .drops-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .drops-info {
+    flex: none;
+    padding-right: 0;
+  }
+  
+  .drops-products {
+    justify-content: center;
+  }
+}

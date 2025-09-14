@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Deals - BestBuy Clone</title>
+
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/topdeals.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+
+
+    <div id="navbar-container"></div>
+
+    <script>
+
+      fetch("/html/navbar.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("navbar-container").innerHTML = data;
+        });
+    </script>
+
+
+    <div class="sort-container">
+      <label for="sort">Sort by:</label>
+      <select id="sort">
+        <option value="default">Default</option>
+        <option value="low-to-high">Price: Low to High</option>
+        <option value="high-to-low">Price: High to Low</option>
+      </select>
+    </div>
+
+
+    <div id="top-deals-container" class="product-container">
+      <p class="loading">Loading top deals...</p>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="/js/footer.js"></script>
+    <script src="/js/topdeals.js"></script>
+  </body>
+  </html> 

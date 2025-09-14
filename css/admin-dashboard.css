@@ -1,0 +1,199 @@
+body {
+  background: #eef2f8;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 30px 0;
+  padding: 38px 38px 0 38px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  color: #0046be;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+#logout-btn {
+  background: #d32f2f;
+  color: #fff;
+  padding: 10px 26px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 1px 4px #cc3232cc;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+#logout-btn:hover {
+  background: #a31515;
+}
+
+#product-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 20px 40px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px #d7dae0;
+  margin-bottom: 36px;
+  align-items: center;
+  justify-content: center;
+}
+
+#product-form input[type="text"],
+#product-form input[type="number"],
+#product-form input[type="url"] {
+  padding: 8px 12px;
+  border: 1px solid #ccd4db;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 150px;
+  background: #f9fbfd;
+  transition: border-color 0.3s;
+}
+#product-form input[type="text"]:focus,
+#product-form input[type="number"]:focus,
+#product-form input[type="url"]:focus {
+  border-color: #0046be;
+  outline: none;
+}
+
+.top-deal-label {
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 10px;
+}
+
+#product-form input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #0046be;
+}
+
+#product-form button[type="submit"] {
+  background: #0046be;
+  color: #fff;
+  padding: 11px 32px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 6px #003a99cc;
+  transition: background-color 0.25s ease;
+}
+#product-form button[type="submit"]:hover {
+  background: #002f7b;
+}
+
+.table-wrapper {
+  padding: 0 40px 40px 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px #cbd1db;
+  overflow: hidden;
+}
+
+thead tr {
+  background: #e5eefa;
+}
+
+th, td {
+  padding: 14px 18px;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
+th {
+  color: #003366;
+  font-weight: 700;
+  border-bottom: 3px solid #a9c0f5;
+}
+
+tbody tr:nth-child(even) {
+  background: #f6f9fc;
+}
+
+tbody tr:hover {
+  background-color: #dce8ff;
+}
+
+td img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #0046be66;
+  background: #f9fbfd;
+}
+
+td button {
+  background: #ffd915;
+  color: #222;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.27s;
+  margin-right: 6px;
+  box-shadow: 0 2px 6px #caab0faa;
+}
+td button:hover {
+  background: #ffc107;
+}
+
+@media (max-width: 850px) {
+  #product-form {
+    padding: 20px 20px;
+    gap: 12px;
+  }
+
+  #product-form input[type="text"],
+  #product-form input[type="number"],
+  #product-form input[type="url"] {
+    width: 120px;
+    font-size: 0.9rem;
+  }
+
+  #product-form button[type="submit"] {
+    font-size: 1rem;
+    padding: 10px 24px;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+  td img {
+    width: 42px;
+    height: 42px;
+  }
+  td button {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+}

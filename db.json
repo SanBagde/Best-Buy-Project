@@ -1,0 +1,328 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Samsung - Galaxy Buds3 Pro Wireless Earbud Headphones - Silver",
+      "price": "$189.99",
+      "oldPrice": "$249.99",
+      "discount": "$60",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535220_sd.jpg",
+      "topDeal": true
+    },
+    {
+      "id": "2",
+      "name": "Beats - Powerbeats Pro 2 True Wireless Earbuds - Black",
+      "price": "$199.99",
+      "oldPrice": "$249.99",
+      "discount": "$50",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397386_sd.jpg",
+      "topDeal": true
+    },
+    {
+      "id": "3",
+      "name": "Sony - WH-1000XM5 Wireless Noise-Cancelling Headphones - Black",
+      "price": "$329.99",
+      "oldPrice": "$399.99",
+      "discount": "$70",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "4",
+      "name": "Apple - MacBook Air 13” M2 - Midnight",
+      "price": "$899.99",
+      "oldPrice": "$1099.99",
+      "discount": "$200",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "5",
+      "name": "Dell - Inspiron 15 Laptop - Intel i5 - 8GB - 512GB SSD",
+      "price": "$499.99",
+      "oldPrice": "$599.99",
+      "discount": "$100",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "6",
+      "name": "HP - Victus 15.6 Gaming Laptop - i7 - RTX 3050",
+      "price": "$799.99",
+      "oldPrice": "$999.99",
+      "discount": "$200",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "7",
+      "name": "LG - 55” Class C3 Series OLED 4K TV",
+      "price": "$1099.99",
+      "oldPrice": "$1499.99",
+      "discount": "$400",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "8",
+      "name": "Sony - PlayStation 5 Console",
+      "price": "$449.99",
+      "oldPrice": "$499.99",
+      "discount": "$50",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "9",
+      "name": "Xbox Series X Console",
+      "price": "$449.99",
+      "oldPrice": "$499.99",
+      "discount": "$50",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "10",
+      "name": "Canon EOS Rebel T8i DSLR Camera with Lens",
+      "price": "$749.99",
+      "oldPrice": "$899.99",
+      "discount": "$150",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "11",
+      "name": "Nikon D7500 DSLR Camera with Lens",
+      "price": "$999.99",
+      "oldPrice": "$1299.99",
+      "discount": "$300",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "12",
+      "name": "GoPro HERO12 Action Camera",
+      "price": "$349.99",
+      "oldPrice": "$399.99",
+      "discount": "$50",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "13",
+      "name": "Apple Watch Series 9 - 41mm - Midnight",
+      "price": "$349.99",
+      "oldPrice": "$399.99",
+      "discount": "$50",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "14",
+      "name": "Samsung Galaxy Watch 6 - 44mm",
+      "price": "$279.99",
+      "oldPrice": "$349.99",
+      "discount": "$70",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529650_sd.jpg",
+      "topDeal": true
+    },
+    {
+      "id": "15",
+      "name": "Anker - Soundcore Bluetooth Speaker",
+      "price": "$59.99",
+      "oldPrice": "$99.99",
+      "discount": "$40",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529650_sd.jpg",
+      "topDeal": true
+    },
+    {
+      "id": "16",
+      "name": "JBL - Flip 6 Portable Bluetooth Speaker",
+      "price": "$89.99",
+      "oldPrice": "$129.99",
+      "discount": "$40",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529646_sd.jpg",
+      "topDeal": true
+    },
+    {
+      "id": "17",
+      "name": "Bose SoundLink Flex Bluetooth Speaker",
+      "price": "$129.99",
+      "oldPrice": "$179.99",
+      "discount": "$50",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "18",
+      "name": "Logitech - MX Master 3S Wireless Mouse",
+      "price": "$79.99",
+      "oldPrice": "$99.99",
+      "discount": "$20",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "19",
+      "name": "Razer BlackWidow V4 Mechanical Gaming Keyboard",
+      "price": "$129.99",
+      "oldPrice": "$179.99",
+      "discount": "$50",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/ffd69bcf-3d4c-4ff9-b012-6e3046c272ae.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "topDeal": true
+    },
+    {
+      "id": "20",
+      "name": "Corsair HS65 Surround Gaming Headset",
+      "price": "$59.99",
+      "oldPrice": "$99.99",
+      "discount": "$40",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529650_sd.jpg",
+      "topDeal": true
+    },
+    {
+      "id": "d170",
+      "name": "hp pavillion",
+      "price": 50000,
+      "oldPrice": 45000,
+      "discount": 5,
+      "img": "https://m.media-amazon.com/images/I/71Xa4o1DXpL._SL1500_.jpg",
+      "stars": 5,
+      "ratingCount": 4,
+      "topDeal": true
+    },
+    {
+      "id": "3a59",
+      "name": "HardDrive",
+      "price": 8000,
+      "oldPrice": 10000,
+      "discount": 15,
+      "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQYsVLBDEu8HRpwCa-4c5teMK8IrTI3UjFG07TnlEKQBlK0uMyG9YbeTtvNS15TfDSlFSIQMqWSdAOI7EF3-M-TDil3JBvRihr3Azqda7A",
+      "stars": 5,
+      "ratingCount": 5,
+      "topDeal": true
+    }
+  ],
+  "deals": [
+    {
+      "id": "1",
+      "name": "Bose - QuietComfort Wireless Noise Cancelling Headphones - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/225cab32-5648-4e6b-8c7b-be0fd1bf7ed7.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "price": 229,
+      "oldPrice": 359,
+      "discount": 130,
+      "stars": 4.7,
+      "ratingCount": 862
+    },
+    {
+      "id": "2",
+      "name": "Bose - SoundLink Max Portable Bluetooth Speaker - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6566/6566875_sd.jpg",
+      "price": 329,
+      "oldPrice": 399,
+      "discount": 70,
+      "stars": 4.6,
+      "ratingCount": 442
+    },
+    {
+      "id": "3",
+      "name": "Bose - Smart Ultra Soundbar with Dolby Atmos and Voice Assistant - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530939_sd.jpg",
+      "price": 699.99,
+      "oldPrice": 999.99,
+      "discount": 300,
+      "stars": 4.7,
+      "ratingCount": 598
+    },
+    {
+      "id": "4",
+      "name": "Bose - Smart Soundbar with Dolby Atmos and Voice Control - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4c3de1d2-e429-4bd8-902a-9f0d25e9eeaf.png;maxHeight=1080;maxWidth=900?format=webp",
+      "price": 419.99,
+      "oldPrice": 549.99,
+      "discount": 130,
+      "stars": 4.5,
+      "ratingCount": 267
+    },
+    {
+      "id": "5",
+      "name": "Sony - WH-1000XM4 Wireless Noise Cancelling Headphones - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6402/6402385_sd.jpg",
+      "price": 248,
+      "oldPrice": 349.99,
+      "discount": 101.99,
+      "stars": 4.8,
+      "ratingCount": 8420
+    },
+    {
+      "id": "6",
+      "name": "Sony - WF-1000XM5 True Wireless Noise Canceling Earbuds - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6280/6280563_sd.jpg;maxHeight=1080;maxWidth=900?format=webp",
+      "price": 278,
+      "oldPrice": 299.99,
+      "discount": 21.99,
+      "stars": 4.6,
+      "ratingCount": 1321
+    },
+    {
+      "id": "7",
+      "name": "Apple - AirPods Max - Space Gray",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3gN5iVew83bQhR8RnVwpQTfeROU6Hd1c56Q&s",
+      "price": 479.99,
+      "oldPrice": 549,
+      "discount": 69.01,
+      "stars": 4.7,
+      "ratingCount": 3221
+    },
+    {
+      "id": "8",
+      "name": "Apple - AirPods Pro (2nd generation) with MagSafe Case",
+      "img": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-2-hero-select-202409_FV1_FMT_WHH?wid=752&hei=636&fmt=jpeg&qlt=90&.v=WTk1dTl5UTBnZXdKN2tua2pFb1hvQ3hmVXd6RnorM2pzUlRIKzNkUEN0UjUvWUFQTXRnUEZqWWRRU2d1WFJwZlcrN05qS3VEVG0zVXZGNUlPVjFnM0RNZGEwYVUyTzcvZlg1UkxwTzJQS1U4K1JOcE5YME4zSHVzMkxMK0ZjVTI",
+      "price": 199.99,
+      "oldPrice": 249,
+      "discount": 49.01,
+      "stars": 4.8,
+      "ratingCount": 16490
+    },
+    {
+      "id": "9",
+      "name": "JBL - Charge 5 Portable Bluetooth Speaker - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452992_sd.jpg",
+      "price": 139.99,
+      "oldPrice": 179.95,
+      "discount": 39.96,
+      "stars": 4.8,
+      "ratingCount": 2189
+    },
+    {
+      "id": "10",
+      "name": "Samsung - Galaxy Buds FE True Wireless Earbud Headphones - Graphite",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6546/6546275_sd.jpg",
+      "price": 79.99,
+      "oldPrice": 99.99,
+      "discount": 20,
+      "stars": 4.4,
+      "ratingCount": 132
+    },
+    {
+      "id": "11",
+      "name": "Logitech - Z313 2.1-Channel Speaker System (3-Piece)",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9427/9427774cv11d.jpg;maxHeight=828;maxWidth=400?format=webp",
+      "price": 49.99,
+      "oldPrice": 69.99,
+      "discount": 20,
+      "stars": 4.7,
+      "ratingCount": 4800
+    },
+    {
+      "id": "12",
+      "name": "Anker - Soundcore Life Q35 Wireless Headphones - Obsidian Blue",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451786_sd.jpg",
+      "price": 89.99,
+      "oldPrice": 129.99,
+      "discount": 40,
+      "stars": 4.7,
+      "ratingCount": 1520
+    }
+  ]
+}

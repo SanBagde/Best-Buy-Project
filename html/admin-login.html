@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="/css/admin-login.css" />
+</head>
+<body>
+  <div class="login-container" id="adminLoginContainer">
+    <h1>Admin Login</h1>
+    <input type="password" id="adminPassword" placeholder="Enter Admin Password" />
+<button onclick="window.location.href='/html/admin-dashboard.html'" class="admin-login-btn">Login as Admin</button>
+    <div style="margin-top:20px;">
+      <a href="login.html">Go back to User Login</a>
+    </div>
+  </div>
+<script>
+  const ADMIN_PASSWORD = "sanket@123";
+  document.getElementById("adminSubmitBtn").addEventListener("click", () => {
+    if (document.getElementById("adminPassword").value === ADMIN_PASSWORD) {
+      alert("Admin login successful!");
+      window.location.href = "admin.html";
+    } else {
+      alert("Incorrect admin password!");
+      document.getElementById("adminPassword").value = "";
+    }
+  });
+</script>
+
+</body>
+</html>
